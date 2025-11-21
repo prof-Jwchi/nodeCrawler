@@ -1,0 +1,12 @@
+{
+  "name": "kopo-crawler",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "watch:kopo": "node nodeCrawler/watchCsvWebhook.js"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0",
+    "xlsx": "^0.18.5"
+  }
+}
